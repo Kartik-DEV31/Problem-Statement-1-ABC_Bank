@@ -336,7 +336,7 @@ pre{
 	width: 35%;
 	height: 70%;
 	bottom:0%;
-	
+
 
 
 }
@@ -417,6 +417,7 @@ background-color: olive;
 	position: fixed;
 	top: 1%;
 	width: 100%;
+	z-index: 1;
 
 }
 
@@ -426,6 +427,7 @@ background-color: olive;
 	top: 50px ;
 	text-align: justify;
   text-justify: inter-word;
+	z-index: -1;
 
 }
 
