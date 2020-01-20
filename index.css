@@ -15,7 +15,9 @@
 	top: 0%;
 	left: 0%;
 	right: 59.8%;
-	width: 40%;
+	width: 50%;
+	height: 10%;
+	border: 5px solid red;
 }
 
 #navigation{
@@ -192,8 +194,10 @@ border-radius:50px ;
 	width: 31.2%;
 	left: 68.2%;
 	right: 0%;
+	height: 10%;
 	bottom: 0%;
-
+background-color: lightyellow;
+    border: 5px solid red;
 
 
 
@@ -201,7 +205,7 @@ border-radius:50px ;
 
 #headerfont{
 	font-size: 50px;
-	background-color: lightyellow;
+
 	color: brown;
 
 }
