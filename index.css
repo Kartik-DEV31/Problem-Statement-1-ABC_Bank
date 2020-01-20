@@ -273,13 +273,11 @@ bottom: 0%;
 #midsection{
 position:absolute;
 	width: 99%;
-	height: 45%;
+	height: 40%;
 	top: 50%;
 bottom: 0%;
 	left: 0%;
 	right: 0%;
-
-
 }
 
 
@@ -299,14 +297,16 @@ bottom: 0%;
 
 
 .form0{
-		top:-25%;
+		top:40%;
 		position: absolute;
-	height: 30%;
-	width: auto;
-		left: 76.5%;
+	height: 15%;
+	width:10%;
+		left: 76%;
 	right: 0%;
 		z-index: 1;
 	bottom: 0%;
+	z-index: 1;
+
 }
 
 
