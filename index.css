@@ -189,29 +189,27 @@ border-radius:50px ;
 
 
 
-.divheader{
+.divheader
+			{
 	position: absolute;
-	top: 1%;
-	width: auto;
-	left: 68.2%;
+	top: 0%;
+	width: 36.6%;
+	left: 63%;
 	right: 0%;
 	height: 10%;
 	bottom: 0%;
-background-color: lightyellow;
-
-
-
+	background-color: lightyellow;
 }
 
-#headerfont{
+#headerfont
+			{
 	font-size: 50px;
-
 	color: brown;
 
 }
 
 #ABC{
-	font-size: 60px ;
+	font-size: 60px;
 	color: blue;
 }
 
@@ -246,7 +244,7 @@ color: white;
 
 #newsimg{
 	position: absolute;
-	top: -34%;
+	top: 5%;
 	left: 0.01%;
 	z-index: 1;
 	width: 10%;
@@ -262,42 +260,44 @@ color: white;
 	position:absolute;
 bottom: 0%;
 	left: 0%;
-	top: 5%;
+	top: 28%;
 	right: 50%;
 	width: 50%;
-	height: 80%;
+	height: 60%;
 	border-radius: 10px;
 
 }
 
 #midsection{
-position:fixed;
+position:absolute;
 	width: 99%;
-	height: 40%;
-	top: 50%;
-bottom: 0%;
+	height: 65%;
+	top: 28%;
+    bottom: 0%;
 	left: 0%;
 	right: 0%;
+	
 }
 
 
 #border{
+
 	position: absolute;
-	top: 3%;
+	top: 32%;
 	left: 58%;
 	right: 0%;
 	border: 5px solid red;
 	border-radius: 50px;
 	width: 40%;
 	bottom: 0%;
-	height: 80%;
+	height: 50%;
 
 }
 
 
 
 .form0{
-		top:-25%;
+		top:10%;
 		position: absolute;
 	height: 15%;
 	width:10%;
