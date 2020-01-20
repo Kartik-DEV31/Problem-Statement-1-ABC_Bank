@@ -17,6 +17,7 @@
 	width: 60%;
 
 
+
 }
 #navigation{
 	text-decoration: none ;
@@ -187,9 +188,11 @@ border-radius:50px ;
 
 
 .divheader{
-	position: fixed;
+	position: absolute;
 	margin-top: -0.5%;
-	left: 63.2%;
+	width: 31.2%;
+	left: 68.5%;
+
 
 }
 
@@ -217,11 +220,12 @@ border-radius:50px ;
 
 
 #offers{
+	border-radius: 10px ;
 	position:fixed;
 	margin-top: 10%;
 	top:-1%;
 	margin-right: 80%;
-	width: 100%;
+	width: 98.5%;
 	height: 10%;
 	background-color: crimson;
 	z-index: -1;
@@ -237,7 +241,6 @@ color: white;
 	margin-top: 17%;
 	left: 0.01%;
 	z-index: 1;
-
 	width: 10%;
 
 }
@@ -257,15 +260,14 @@ color: white;
 
 
 border{
-	position: fixed;
+	position: absolute;
 	top: 50%;
 	left: 58%;
 	border: 5px solid red;
 	border-radius: 50px;
 	width: 40%;
 	height: 30%;
-
-
+	
 }
 
 
@@ -365,6 +367,7 @@ color:grey ;
 	width: 100%;
 	left: 0%;
 background-color: olive;
+	height: 3.3%;
 
 
 }
