@@ -11,7 +11,7 @@
 </head>
 <body  style="overflow:hidden;">
 
-<div class="divheader"><header id="headerfont"><b id="ABC">ABC</b> Bank Corporation</header></div>
+<div  class="divheader"><header id="headerfont"><b onmouseover="hoverABC()" onmouseout="nothoverABC()" id="ABC">ABC</b> Bank Corporation</header></div>
 <nav>
 <div id="top">
 	<a href="#" id="navigation">Home</a>
@@ -110,10 +110,10 @@ Bank servers will remain shut-down on 19/02/2020
 
 
 
-<form>
+<form name="bank_login">
 	<div id="border">
 <div id="form1">
-	<pre>
+	<pre id="pre">
 User-ID	 :
 Password :
 	</pre>
@@ -123,15 +123,15 @@ Password :
 <div id="form2">
 
 <pre>
-<input type="email" class="border" placeholder="xyz@abc.com" name="email"  required>
-<input type="Password" minlength="8" maxlength="8" placeholder="Enter the password" name="password" class="border"  required>
+<input type="email"  class="border" placeholder="xyz@abc.com" name="email"  required>
+<input type="Password"  minlength="8" maxlength="8" placeholder="Enter the password" name="password" class="border"  required>
 <pre style="font-size: 15px"><a href="#">forgot password/userID ?</a> </pre>
 </pre>
 
 </div>
 	</div>
 <div id="form3">
- <input type="submit" id="submit" value="submit" name="submit">
+ <input onclick="validation()" onmouseover="hover()" onmouseout="nothover()" type="submit" id="submit" value="submit" name="submit">
  <input type="reset" id="reset" value="reset" name="reset">
 </div>
 
