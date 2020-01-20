@@ -246,7 +246,7 @@ color: white;
 
 #newsimg{
 	position: absolute;
-	top: 36%;
+	top: -34%;
 	left: 0.01%;
 	z-index: 1;
 	width: 10%;
@@ -271,7 +271,7 @@ bottom: 0%;
 }
 
 #midsection{
-position:absolute;
+position:fixed;
 	width: 99%;
 	height: 40%;
 	top: 50%;
@@ -297,7 +297,7 @@ bottom: 0%;
 
 
 .form0{
-		top:40%;
+		top:-25%;
 		position: absolute;
 	height: 15%;
 	width:10%;
