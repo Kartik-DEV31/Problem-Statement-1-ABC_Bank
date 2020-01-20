@@ -15,7 +15,6 @@
 	top: 0%;
 	left: 0%;
 	right: 59.8%;
-	border: 5px solid red;
 	width: 40%;
 }
 
@@ -211,8 +210,8 @@ border-radius:50px ;
 }
 
 #offersimg {
-	position: fixed;
-	margin-top: 6%;
+	position: absolute;
+	top: 13%;
 	left: 1px;
 	z-index: 1;
 
@@ -223,13 +222,14 @@ border-radius:50px ;
 
 #offers{
 	border-radius: 10px ;
-	position:fixed;
-	margin-top: 10%;
-	top:-1%;
+	position:absolute;
+	top: 19%;
+
 	margin-right: 80%;
 	width: 98.5%;
-	height: 10%;
+	height: 6%;
 	background-color: crimson;
+
 	z-index: -1;
 }
 
