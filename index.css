@@ -192,7 +192,7 @@ border-radius:50px ;
 .divheader{
 	position: absolute;
 	top: 1%;
-	width: 31.2%;
+	width: auto;
 	left: 68.2%;
 	right: 0%;
 	height: 10%;
